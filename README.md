@@ -8,13 +8,17 @@ Mixer Rich Presence is a rich presence client that queries the Mixer API and fee
 
 ## Pre-requisites
 - Node.js
-- Mixer username (Find your username here: [Mixlook](https://mixlook.ml))
+- Mixer username
 
 ## Setup
 Documentation coming soon.
 
 ## Avatar
 Set up the config above if you want custom avatars.
+
+Find your avatar URL at [Mixlook](https://mixlook.ml) and download it to the assets folder amd name it `profile.png`
+
+Upload that under Art Assets in the Discord Developer Portal.
 
 ## Features
 - Interfaces with the Mixer API
