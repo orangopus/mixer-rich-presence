@@ -1,0 +1,22 @@
+{
+  "name": "mixlook-rpc",
+  "version": "1.0.0",
+  "description": "Mixer Rich Presence is a rich presence client that queries the Mixer API and feeds it all to Discord!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mixlook-rpc"
+  },
+  "author": "Mixlook",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "discord-rich-presence": "0.0.8",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
