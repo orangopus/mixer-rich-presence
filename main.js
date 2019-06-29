@@ -1,19 +1,23 @@
 "USE STRICT";
 // SET THESE FIRST
-const name = "Cheese";
-const CLIENT_ID = "593477063634059275"; // Change this if you want custom avatars
-const url = "https://mixer.com/api/v1/";
-const endpoint = "channels/";
+var config = require('./config.json');
+
+var username = config.username;
+var CLIENT_ID = config.CLIENT_ID; // Change this if you want custom avatars
+var url = config.url;
+var endpoint = config.endpoint;
 var timer = 5000; // To deal with ratelimits
 
 // Full Channel URL
-var full = url + endpoint + name;
+var full = url + endpoint + username;
 
 const rpc = require("discord-rich-presence")(CLIENT_ID);
 const axios = require("axios");
 const fs = require("fs");
 
 console.log("API URL: " + full);
+
+// Discord Rich Presence calling API functions from Mixer.
 
 var myInt = setInterval(function() {
   axios
@@ -48,7 +52,6 @@ var myInt = setInterval(function() {
       );
 
       if (online === true) {
-        setInterval;
         rpc.updatePresence({
           state: game,
           details: title,
