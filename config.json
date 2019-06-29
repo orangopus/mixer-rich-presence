@@ -1,6 +1,6 @@
 {
     "username": "USERNAME HERE",
-    "CLIENT_ID": "593477063634059275", // Default Client id. Change this if you want custom avatars.
+    "CLIENT_ID": "593477063634059275",
     "url": "https://mixer.com/api/v1/",
     "endpoint": "channels/"
 }
