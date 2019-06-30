@@ -42,7 +42,7 @@ Use these if you want to change your avatar from the default avatar.
 
 ## Attributions
 
-Created by the folks at [Mixlook](https://github.com/mixlook). 
+Created by the folks at [Orangopus](https://github.com/orangopus). 
 
 *We are not affiliated or endorsed by Discord, Mixer or Microsoft.*
 
