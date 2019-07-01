@@ -8,6 +8,7 @@ Mixer Rich Presence is a rich presence client that queries the Mixer API and fee
 
 ## Pre-requisites
 - [Node.js](https://nodejs.org)
+- [Git](https://gitforwindows.org/)
 - Mixer username
 ## Optional
 - Custom Avatar
@@ -26,6 +27,7 @@ To use this, you need to follow these steps:
 - Copy your client ID to your clipboard.
 - Go to `config.json` and where username is, enter your username.
 - For custom avatars, upload your own avatar to the Art Assets folder. (See [Avatar Section](#Avatar) for details on how to find your avatar URL.
+- Click on `install.bat` to install dependencies.
 
 Congratulations, you should now just be able to click on `run.bat` and it'll run it in a console window with full logs.
 
