@@ -18,7 +18,8 @@ Mixer Rich Presence is a rich presence client that queries the Mixer API and fee
 - Detects when you go online and offline and changes accordingly.
 
 ## Coming Soon
-An app to run Mixer Rich Presence in the background. Start/Stop toggles, etc.
+- An app to run Mixer Rich Presence in the background. Start/Stop toggles, etc.- 
+- Add Razer Chroma Support
 
 ## Setup
 To use this, you need to follow these steps:
